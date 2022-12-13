@@ -1,0 +1,10 @@
+Deals damage to a creature every turn.
+Take control of an enemy creature.
+Instantly destroys a creature.
+Summons a creature with the same stats and abilities as the creature targeted.
+Redirects all damage inflicted to another creature.
+Grants a creature damage immunity and +2 attack.
+Heals a creature's health to full.
+Removes all negative effects on creatures.
+Cancels all enchantments on a creature.
+Grants a chosen creature +1 attack and +1 health

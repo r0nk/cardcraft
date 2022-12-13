@@ -1,0 +1,14 @@
+Whenever a card is Played
+When a Player Attacks
+When a Player Defends
+When a Player Taps a card
+When a Player Draws a Card
+When a Player Discards a Card
+When a Player Gains Life Points
+When a Player Loses Life Points
+When a Player Uses an Ability 
+When a Player Summons a Monster
+When a Player Activates a Spell/Trap Card
+When a Player Exceeds a Certain Number of Cards in their Hand 
+When a Player Takes Damage 
+When a Player Activates an Effect 
