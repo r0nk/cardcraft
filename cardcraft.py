@@ -16,7 +16,7 @@ class player:
     def __init__(self):
         self.health=30
         self.deck=[]
-        self.field=[]
+        self.field={'1':None,'2':None,'3':None,'4':None}
         self.hand=[]
 
 class cardcraft(gym.Env):
@@ -50,8 +50,8 @@ class cardcraft(gym.Env):
         # effect (n)
         self.observation_space = spaces.MultiDiscrete([30,30])
 
-    def turn(self,p):
-        #draw a card
+    #draw a card
+    def draw(self,p):
         if(len(p.hand) > 8):
             p.deck.pop()
         else:
