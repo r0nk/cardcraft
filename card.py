@@ -1,4 +1,5 @@
 import random
+
 with open('nouns.txt') as f:
     nouns = [line.rstrip() for line in f]
 
@@ -33,4 +34,3 @@ class card:
             return f"Monster: {self.name}: {self.cost}|{self.damage}|{self.health} \"{self.text}\""
         else:
             return f"Spell: {self.name}: {self.cost} \"{self.text}\" "
-
