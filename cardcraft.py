@@ -39,15 +39,11 @@ class cardcraft(gym.Env):
 
         # observation space is a bit different:
         # 2X(n/30) player health
-        # 16 cards total
-            # 8 in hand
-            # 4 on each side of field
         # each card has
-        # health (n/20)
-        # damage (n/20)
-        # cost (n/10)
-        # trigger (n)
-        # effect (n)
+        #   health (n/10)
+        #   damage (n/10)
+        #   trigger (n)
+        #   effect (n)
         self.observation_space = spaces.MultiDiscrete([30,30])
 
     #draw a card

@@ -1,0 +1,8 @@
+cardset/design	60
+cardset/implement	60
+cardset	15
+boss	60
+ai	30
+display	15
+experiment_harness	60
+survey	60
